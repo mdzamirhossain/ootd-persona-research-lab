@@ -2,7 +2,7 @@
 
 A Streamlit web application for AI-assisted customer persona research. It creates two fictional customer personas for **OOTD**, a proposed weather-aware outfit app for the German market, and lets you interview them through a **local Ollama language model**. Every step is documented and can be exported for coursework.
 
-🔗 **Live demo:** https://YOUR-APP-NAME.streamlit.app
+🔗 **Live demo:** https://ootd-persona-lab.streamlit.app
 
 > Hosted on Streamlit Community Cloud. If the app has been asleep, click **"Yes, get this app back up!"** and wait a few seconds.
 > **Note:** the live interview bots need Ollama running on your own computer, so they **don't work in the online demo**. You can still browse the personas, load the 22 example Q&A pairs in *Findings & export*, and download every report. To interview the bots yourself, run the app locally (see below).
@@ -41,7 +41,7 @@ All interview answers are **synthetic**. The app labels them clearly and never p
    ```
 3. Clone this repository and install the dependencies:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/ootd-persona-research-lab.git
+   git clone https://github.com/mdzamirhossain/ootd-persona-research-lab.git
    cd ootd-persona-research-lab
    python -m pip install -r requirements.txt
    ```
